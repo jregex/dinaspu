@@ -19,7 +19,7 @@ class Index extends Component
 
     public function render()
     {
-        $berita = Post::with('category')->where('published', 1)->paginate(10);
+        $berita = Post::with('category')->where('published', 1)->paginate(9);
 
         return view('frontend.berita.index')->with(['beritas' => $berita]);
     }

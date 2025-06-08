@@ -2,11 +2,11 @@
     <x-hero />
 
     <!-- Features Section -->
-    <section id="features" class="features section my-5">
+    <section id="features" class="my-5 features section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
             <h2>Layanan</h2>
-            <p class="description-title">Cek Layanan kami</p>
+            <p>Cek <span class="description-title">Layanan</span> kami</p>
         </div>
         <!-- End Section Title -->
         <div class="container">
@@ -71,7 +71,7 @@
 
                 <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
 
-                    <div class="portfolio-description mb-5">
+                    <div class="mb-5 portfolio-description">
                         <div class="portfolio-info">
                             <h3>Sambutan</h3>
                         </div>
@@ -93,7 +93,7 @@
                         </div>
 
                     </div>
-                    <div class="portfolio-description mt-4">
+                    <div class="mt-4 portfolio-description">
                         <div class="portfolio-info">
                             <h3>Visi Misi Kab. Bantaeng</h3>
                         </div>
@@ -142,10 +142,10 @@
     <section id="about" class="about section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>About</h2>
+            <h2>Tentang</h2>
             <p>
-                <span>Learn More</span>
-                <span class="description-title">About Us<br /></span>
+                <span class="description-title">Tentang</span>
+                <span>kami</span>
             </p>
         </div>
         <!-- End Section Title -->
@@ -153,61 +153,62 @@
         <div class="container">
             <div class="row gy-5">
                 <div class="content col-xl-5 d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
-                    <h3>Voluptatem dignissimos provident quasi</h3>
+                    <h3>Sejarah</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-                        aute irure dolor in reprehenderit
+                        Peraturan Daerah Kabupaten Bantaeng Nomor 26 Tahun 2007 Tentang Pembentukan Organisasi,
+                        Kedudukan, Tugas Pokok Dan Fungsi Dinas-Dinas Daerah Kabupaten Bantaeng , Pada Tanggal 15
+                        Desember 2007 Membentuk Opd Dengan Nama Opd Dinas Pekerjaan Umum Dan Kimpraswil Dengan Tugas
+                        Pokok Dan Fungsi
                     </p>
-                    <a href="#" class="about-btn align-self-center align-self-xl-start"><span>About us</span>
+                    <a href="#" class="about-btn align-self-center align-self-xl-start"><span>Profil kami</span>
                         <i class="bi bi-chevron-right"></i></a>
                 </div>
 
-                <div class="col-xl-7" data-aos="fade-up" data-aos-delay="200">
-                    <div class="row gy-4">
-                        <div class="col-md-6 icon-box position-relative">
-                            <i class="bi bi-briefcase"></i>
+                <div class="p-4 col-xl-7 bg-light" data-aos="fade-up" data-aos-delay="200">
+                    <div class="row gy-5">
+                        <div class="text-center col-md-6 col-sm-6 icon-box position-relative">
+                            <i class="bi bi-image-alt"></i>
                             <h4>
-                                <a href="" class="stretched-link">Corporis voluptates sit</a>
+                                <a href="" class="stretched-link">Galeri</a>
                             </h4>
-                            <p>
+                            {{-- <p>
                                 Consequuntur sunt aut quasi enim aliquam quae harum pariatur
                                 laboris nisi ut aliquip
-                            </p>
+                            </p> --}}
                         </div>
                         <!-- Icon-Box -->
 
-                        <div class="col-md-6 icon-box position-relative">
-                            <i class="bi bi-gem"></i>
+                        <div class="text-center col-md-6 col-sm-6 icon-box position-relative">
+                            <i class="bi bi-people-fill"></i>
                             <h4>
-                                <a href="" class="stretched-link">Ullamco laboris nisi</a>
+                                <a href="" class="stretched-link">Sumber daya manusia</a>
                             </h4>
-                            <p>
+                            {{-- <p>
                                 Excepteur sint occaecat cupidatat non proident, sunt in
                                 culpa qui officia deserunt
-                            </p>
+                            </p> --}}
                         </div>
                         <!-- Icon-Box -->
 
-                        <div class="col-md-6 icon-box position-relative">
-                            <i class="bi bi-broadcast"></i>
+                        <div class="text-center col-md-6 col-sm-6 icon-box position-relative">
+                            <i class="bi bi-globe"></i>
                             <h4>
-                                <a href="" class="stretched-link">Labore consequatur</a>
+                                <a href="" class="stretched-link">Peta</a>
                             </h4>
-                            <p>
+                            {{-- <p>
                                 Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut
                                 maiores omnis facere
-                            </p>
+                            </p> --}}
                         </div>
                         <!-- Icon-Box -->
 
-                        <div class="col-md-6 icon-box position-relative">
-                            <i class="bi bi-easel"></i>
-                            <h4><a href="" class="stretched-link">Beatae veritatis</a></h4>
-                            <p>
+                        <div class="text-center col-md-6 col-sm-6 icon-box position-relative">
+                            <i class="bi bi-file-earmark-ruled-fill"></i>
+                            <h4><a href="" class="stretched-link">Peraturan</a></h4>
+                            {{-- <p>
                                 Expedita veritatis consequuntur nihil tempore laudantium
                                 vitae denat pacta
-                            </p>
+                            </p> --}}
                         </div>
                         <!-- Icon-Box -->
                     </div>
@@ -284,7 +285,7 @@
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section dark-background">
-        <img src="{{ asset('user') }}/assets/img/cta-bg.jpg" alt="" />
+        <img src="{{ asset('user') }}/assets/img/slider/bantaeng2.jpg" alt="" />
 
         <div class="container">
             <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
@@ -305,12 +306,60 @@
     </section>
     <!-- /Call To Action Section -->
 
+    <section id="blog-posts" class="blog-posts section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Berita</h2>
+            <p><span>Silahkan cek</span> <span class="description-title">Berita</span> kami</p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+            <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+
+                @foreach ($beritas as $item)
+                    <div class="col-lg-4 col-sm-6">
+                        <article>
+
+                            <div class="post-img">
+                                <img src="{{ asset('storage/public/berita') }}/{{ $item->image }}" width="100%"
+                                    alt="{{ $item->title }}" class="img-fluid">
+                            </div>
+
+                            <p class="post-category">{{ $item->category->category }}</p>
+
+                            <h2 class="title">
+                                <a href="{{ route('berita.detail', ['slug' => $item->slug]) }}">{{ $item->title }}</a>
+                            </h2>
+
+                            <div class="d-flex align-items-center">
+                                <img src="{{ asset('storage/public/profile') }}/default.webp" alt=""
+                                    class="flex-shrink-0 img-fluid post-author-img">
+                                <div class="post-meta">
+                                    <p class="post-author">{{ $item->penulis }}</p>
+                                    <p class="post-date">
+                                        <time
+                                            datetime="2022-01-01">{{ date('l, d M Y', strtotime($item->updated_at)) }}</time>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </article>
+                    </div><!-- End post list item -->
+                @endforeach
+
+
+            </div>
+        </div>
+
+    </section><!-- /Blog Posts Section -->
+
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>Portfolio</h2>
-            <p><span>Check Our</span> <span class="description-title">Portfolio</span></p>
+            <h2>Galeri</h2>
+            <p><span>Silahkan cek</span> <span class="description-title">Galeri</span> kami</p>
         </div>
         <!-- End Section Title -->
 
@@ -318,146 +367,29 @@
             <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
                 <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
                     <li data-filter="*" class="filter-active">All</li>
-                    <li data-filter=".filter-app">App</li>
-                    <li data-filter=".filter-product">Card</li>
-                    <li data-filter=".filter-branding">Web</li>
+                    @foreach ($galleries as $item)
+                        <li data-filter=".filter-{{ str_replace(' ', '-', $item->category) }}">{{ $item->category }}
+                        </li>
+                    @endforeach
                 </ul>
                 <!-- End Portfolio Filters -->
 
                 <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                        <img src="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-1.jpg"
-                            class="img-fluid" alt="" />
-                        <div class="portfolio-info">
-                            <h4>App 1</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-1.jpg"
-                                title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                        <img src="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-2.jpg"
-                            class="img-fluid" alt="" />
-                        <div class="portfolio-info">
-                            <h4>Product 1</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-2.jpg"
-                                title="Product 1" data-gallery="portfolio-gallery-product"
-                                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                        <img src="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
-                            class="img-fluid" alt="" />
-                        <div class="portfolio-info">
-                            <h4>Branding 1</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
-                                title="Branding 1" data-gallery="portfolio-gallery-branding"
-                                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                        <img src="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-4.jpg"
-                            class="img-fluid" alt="" />
-                        <div class="portfolio-info">
-                            <h4>App 2</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-4.jpg"
-                                title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                        <img src="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
-                            class="img-fluid" alt="" />
-                        <div class="portfolio-info">
-                            <h4>Product 2</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
-                                title="Product 2" data-gallery="portfolio-gallery-product"
-                                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                        <img src="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
-                            class="img-fluid" alt="" />
-                        <div class="portfolio-info">
-                            <h4>Branding 2</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
-                                title="Branding 2" data-gallery="portfolio-gallery-branding"
-                                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                        <img src="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-7.jpg"
-                            class="img-fluid" alt="" />
-                        <div class="portfolio-info">
-                            <h4>App 3</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-7.jpg"
-                                title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                        <img src="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
-                            class="img-fluid" alt="" />
-                        <div class="portfolio-info">
-                            <h4>Product 3</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
-                                title="Product 3" data-gallery="portfolio-gallery-product"
-                                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                        <img src="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-9.jpg"
-                            class="img-fluid" alt="" />
-                        <div class="portfolio-info">
-                            <h4>Branding 3</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('user') }}/assets/img/masonry-portfolio/masonry-portfolio-9.jpg"
-                                title="Branding 2" data-gallery="portfolio-gallery-branding"
-                                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
+                    @foreach ($galleries as $gallery)
+                        @foreach ($gallery->galleries as $item)
+                            <div
+                                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-{{ str_replace(' ', '-', $gallery->category) }}">
+                                <img src="{{ $item->location }}" class="img-fluid" alt="" />
+                                <div class="portfolio-info">
+                                    <h4>{{ $gallery->category }}</h4>
+                                    {{-- <p>{{ $item->name }}</p> --}}
+                                    <a href="{{ $item->location }}" title="App 1"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        @endforeach
+                    @endforeach
                     <!-- End Portfolio Item -->
                 </div>
                 <!-- End Portfolio Container -->
@@ -466,8 +398,10 @@
     </section>
     <!-- /Portfolio Section -->
 
+
+
     <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
+    {{-- <section id="pricing" class="pricing section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
             <h2>Pricing</h2>
@@ -587,11 +521,11 @@
                 <!-- End Pricing Item -->
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- /Pricing Section -->
 
     <!-- Faq Section -->
-    <section id="faq" class="faq section">
+    {{-- <section id="faq" class="faq section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
             <h2>Frequently Asked Questions</h2>
@@ -704,15 +638,15 @@
                 <!-- End Faq Column-->
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- /Faq Section -->
 
     <!-- Team 2 Section -->
     <section id="team-2" class="team-2 section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>Team</h2>
-            <p>Our Hardworking <span class="description-title">Team</span></p>
+            <h2>SDM</h2>
+            <p>Sumber Daya <span class="description-title">Manusia</span></p>
         </div>
         <!-- End Section Title -->
 
@@ -720,18 +654,12 @@
             <div class="row gy-4">
                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="member">
-                        <img src="{{ asset('user') }}/assets/img/team/team-1.jpg" class="img-fluid"
+                        <img src="{{ asset('user') }}/assets/img/sdm/kepala-dinas.jpg" class="img-fluid"
                             alt="" />
                         <div class="member-info">
                             <div class="member-info-content">
-                                <h4>Walter White</h4>
-                                <span>Chief Executive Officer</span>
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
+                                <h4>Ir ANDI SJAFARUDDIN MAGAU</h4>
+                                <span>Kepala Dinas PU Kab. Bantaeng</span>
                             </div>
                         </div>
                     </div>
@@ -740,18 +668,11 @@
 
                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="member">
-                        <img src="{{ asset('user') }}/assets/img/team/team-2.jpg" class="img-fluid"
-                            alt="" />
+                        <img src="{{ asset('user') }}/assets/img/sdm/sdm.png" class="img-fluid" alt="" />
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4>Sarah Jhonson</h4>
                                 <span>Product Manager</span>
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -760,18 +681,11 @@
 
                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="member">
-                        <img src="{{ asset('user') }}/assets/img/team/team-3.jpg" class="img-fluid"
-                            alt="" />
+                        <img src="{{ asset('user') }}/assets/img/sdm/sdm.png" class="img-fluid" alt="" />
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4>William Anderson</h4>
                                 <span>CTO</span>
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -780,18 +694,11 @@
 
                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="member">
-                        <img src="{{ asset('user') }}/assets/img/team/team-4.jpg" class="img-fluid"
-                            alt="" />
+                        <img src="{{ asset('user') }}/assets/img/sdm/sdm.png" class="img-fluid" alt="" />
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4>Amanda Jepson</h4>
                                 <span>Accountant</span>
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -806,7 +713,7 @@
     <section id="contact" class="contact section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>Contact</h2>
+            <h2>Kontak</h2>
             <p><span>Butuh bantuan?</span> <span class="description-title">Kontak kami<br></span></p>
         </div><!-- End Section Title -->
 
@@ -822,7 +729,7 @@
             <div class="row gy-4">
                 <div class="col-lg-4">
                     <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                        <i class="bi bi-geo-alt flex-shrink-0"></i>
+                        <i class="flex-shrink-0 bi bi-geo-alt"></i>
                         <div>
                             <h3>Alamat</h3>
                             <p>Bonto Atu, Bissappu, Bantaeng Regency, South Sulawesi 92451</p>
@@ -831,7 +738,7 @@
                     <!-- End Info Item -->
 
                     <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                        <i class="bi bi-telephone flex-shrink-0"></i>
+                        <i class="flex-shrink-0 bi bi-telephone"></i>
                         <div>
                             <h3>No Telp</h3>
                             <p>+1 5589 55488 55</p>
@@ -840,7 +747,7 @@
                     <!-- End Info Item -->
 
                     <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
-                        <i class="bi bi-envelope flex-shrink-0"></i>
+                        <i class="flex-shrink-0 bi bi-envelope"></i>
                         <div>
                             <h3>Email</h3>
                             <p>info@example.com</p>
@@ -872,7 +779,7 @@
                                 <textarea class="form-control" name="message" rows="6" placeholder="Pesan" required=""></textarea>
                             </div>
 
-                            <div class="col-md-12 text-center">
+                            <div class="text-center col-md-12">
                                 <div class="loading">Loading</div>
                                 <div class="error-message"></div>
                                 <div class="sent-message">

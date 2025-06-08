@@ -12,7 +12,7 @@
         </div>
     </div> --}}
     <!-- Slider main container -->
-    <div class="swiper-container">
+    <div class="swiper-container" data-aos="zoom-in" data-aos-delay="100">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
             <!-- Slides -->
@@ -21,11 +21,11 @@
 
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('user') }}/assets/img/slider/kepala_dinas.jpg" alt="" />
+                <img src="{{ asset('user') }}/assets/img/slider/bantaeng1.JPG" alt="" />
 
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('user') }}/assets/img/slider/kepala_dinas.jpg" alt="" />
+                <img src="{{ asset('user') }}/assets/img/slider/bantaeng2.jpg" alt="" />
 
             </div>
         </div>

@@ -1,9 +1,9 @@
   <main class="main">
       <!-- Page Title -->
       <div class="page-title dark-background"
-          style="background-image: url({{ asset('user') }}/assets/img/page-title-bg.webp);">
+          style="background-image: url({{ asset('user') }}/assets/img/slider/bantaeng1.JPG);">
           <div class="container position-relative">
-              <h1>Contact</h1>
+              <h1>Kontak</h1>
               <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam
                   molestias.</p>
               <nav class="breadcrumbs">
@@ -36,7 +36,7 @@
 
                   <div class="col-lg-4">
                       <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                          <i class="bi bi-geo-alt flex-shrink-0"></i>
+                          <i class="flex-shrink-0 bi bi-geo-alt"></i>
                           <div>
                               <h3>Alamat</h3>
                               <p>Bonto Atu, Bissappu, Bantaeng Regency, South Sulawesi 92451</p>
@@ -44,7 +44,7 @@
                       </div><!-- End Info Item -->
 
                       <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                          <i class="bi bi-telephone flex-shrink-0"></i>
+                          <i class="flex-shrink-0 bi bi-telephone"></i>
                           <div>
                               <h3>No Telp</h3>
                               <p>+1 5589 55488 55</p>
@@ -52,7 +52,7 @@
                       </div><!-- End Info Item -->
 
                       <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
-                          <i class="bi bi-envelope flex-shrink-0"></i>
+                          <i class="flex-shrink-0 bi bi-envelope"></i>
                           <div>
                               <h3>Email</h3>
                               <p>info@example.com</p>
@@ -71,7 +71,7 @@
                                       required="">
                               </div>
 
-                              <div class="col-md-6 ">
+                              <div class="col-md-6">
                                   <input type="email" class="form-control" name="email" placeholder="Email"
                                       required="">
                               </div>
@@ -85,7 +85,7 @@
                                   <textarea class="form-control" name="message" rows="6" placeholder="Pesan" required=""></textarea>
                               </div>
 
-                              <div class="col-md-12 text-center">
+                              <div class="text-center col-md-12">
                                   <div class="loading">Loading</div>
                                   <div class="error-message"></div>
                                   <div class="sent-message">Your message has been sent. Thank you!</div>

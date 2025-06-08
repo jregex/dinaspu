@@ -2,15 +2,15 @@
 
     <!-- Page Title -->
     <div class="page-title dark-background"
-        style="background-image: url({{ asset('user') }}/assets/img/page-title-bg.webp);">
+        style="background-image: url({{ asset('user') }}/assets/img/slider/bantaeng1.JPG);">
         <div class="container position-relative">
-            <h1>Blog</h1>
+            <h1>Berita</h1>
             <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam
                 molestias.</p>
             <nav class="breadcrumbs">
                 <ol>
-                    <li><a href="/">Home</a></li>
-                    <li class="current">Blog</li>
+                    <li><a href="/">Beranda</a></li>
+                    <li class="current">Berita</li>
                 </ol>
             </nav>
         </div>
@@ -39,7 +39,7 @@
 
                             <div class="d-flex align-items-center">
                                 <img src="{{ asset('storage/public/profile') }}/default.webp" alt=""
-                                    class="img-fluid post-author-img flex-shrink-0">
+                                    class="flex-shrink-0 img-fluid post-author-img">
                                 <div class="post-meta">
                                     <p class="post-author">{{ $item->penulis }}</p>
                                     <p class="post-date">
