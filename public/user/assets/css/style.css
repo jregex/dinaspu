@@ -1,0 +1,298 @@
+.site {
+    display: block;
+}
+.sitename {
+    color: #ffffff;
+    font-size: 15pt;
+    font-weight: bold;
+}
+.site .site-desc {
+    color: #ffffff;
+    font-size: 11pt;
+    margin-top: -1.5rem;
+}
+.site-footer .site-desc {
+    color: #ffffff;
+    font-size: 11pt;
+    margin-top: -0.5em;
+}
+.section-dark .icons-container {
+    color: #ffffff;
+}
+.section-light-blue {
+    background-color: #51cbce;
+    color: #ffffff;
+}
+.section-blue {
+    background-color: #3d90d7;
+    color: #ffffff;
+}
+.section-dark {
+    background-color: #0b1011;
+}
+.section-image,
+.section-gold,
+.section-dark {
+    position: relative;
+}
+.section .card-profile {
+    margin-top: 100px;
+}
+.landing-section {
+    padding: 100px 0;
+    z-index: 1;
+}
+.card.card-plain {
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+}
+
+.card.card-plain .card-body {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card.card-plain img {
+    border-radius: 12px;
+}
+.card .author {
+    display: inline-block;
+}
+.section-image .title,
+.section-image .info-title,
+.section-image .card-plain .card-title,
+.section-gold .title,
+.section-gold .info-title,
+.section-gold .card-plain .card-title,
+.section-dark .title,
+.section-dark .info-title,
+.section-dark .card-plain .card-title {
+    color: #ffffff !important;
+}
+.section-image .category,
+.section-image .description,
+.section-image .card-plain .card-description,
+.section-image .card-plain .card-category,
+.section-gold .category,
+.section-gold .description,
+.section-gold .card-plain .card-description,
+.section-gold .card-plain .card-category,
+.section-dark .category,
+.section-dark .description,
+.section-dark .card-plain .card-description,
+.section-dark .card-plain .card-category {
+    color: rgba(255, 255, 255, 0.7);
+}
+.card:not(.card-plain):hover {
+    box-shadow: 0px 12px 19px -7px rgba(0, 0, 0, 0.3);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+}
+.card-profile {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.card-profile .card-cover {
+    height: 130px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.card-profile .card-body .card-title {
+    margin-top: 5px !important;
+}
+
+.card-profile .card-body .card-category {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.card-profile .card-avatar {
+    max-width: 120px;
+    max-height: 120px;
+    margin: -60px auto 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card-profile .card-avatar.border-white {
+    border: 4px solid #ffffff;
+}
+
+.card-profile .card-avatar.border-gray {
+    border: 4px solid #ccc;
+}
+.section .card-profile {
+    margin-top: 100px;
+}
+
+.card .author .avatar {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.card .author .avatar-big {
+    width: 100px;
+    height: 100px;
+    border-radius: 50% !important;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.card .author .avatar-big.border-white {
+    border: 4px solid #ffffff;
+}
+
+.card .author .avatar-big.border-gray {
+    border: 4px solid #ccc;
+}
+
+.card .clearfix + .author {
+    margin-top: 15px;
+}
+@media (max-width: 500px) {
+    #cards .card-profile {
+        margin-top: 50px;
+    }
+}
+
+.mySwiper {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mySwiper:before {
+    content: "";
+    background: color-mix(in srgb, var(--background-color), transparent 30%);
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+}
+.mySwiper .swiper-slide {
+    text-align: center;
+    background-size: cover;
+    /* display: flex; */
+    background-position: center;
+}
+.mySwiper .swiper-slider img {
+    display: block;
+    inset: 0;
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero-slider {
+    width: 100%;
+    height: 90vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    z-index: 0;
+}
+.hero-slider:before {
+    content: "";
+    background: color-mix(in srgb, var(--background-color), transparent 40%);
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+}
+@media (max-width: 991px) {
+    .hero-slider {
+        height: 600px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-slider {
+        height: 300px;
+    }
+}
+
+.hero-slider .swiper-slide {
+    overflow: hidden;
+    color: #fff;
+}
+
+.hero-slider .swiper-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.hero-slider img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-slider .swiper-button-prev,
+.hero-slider .swiper-button-next {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    line-height: 53px;
+    margin-top: -30px;
+    text-align: center;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 55px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+.hero-slider:hover .swiper-button-prev,
+.hero-slider:hover .swiper-button-next {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+@media (max-width: 767px) {
+    .hero-slider .swiper-button-prev,
+    .hero-slider .swiper-button-next {
+        display: none;
+    }
+}
+.hero-slider .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    text-align: left;
+    line-height: 12px;
+    font-size: 12px;
+    color: #000;
+    opacity: 0.3;
+    background: #fff;
+    transition: all 0.2s ease;
+}
+.hero-slider .swiper-pagination-bullet-active {
+    opacity: 1;
+}
