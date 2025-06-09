@@ -12,7 +12,7 @@
         <div class="container">
             <div class="row gy-4 justify-content-center">
                 <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="features-item">
+                    <div class="features-item d-flex justify-content-center">
                         <i class="bi bi-file-bar-graph" style="color: #ffbb2c"></i>
                         <h3><a href="https://dpupr.bantaengkab.go.id/newsianata" target="_blank"
                                 class="stretched-link">New Sianata</a></h3>
@@ -21,7 +21,7 @@
                 <!-- End Feature Item -->
 
                 <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="features-item">
+                    <div class="features-item d-flex justify-content-center">
                         <i class="bi bi-globe-asia-australia" style="color: #5578ff"></i>
                         <h3><a href="https://dpupr.bantaengkab.go.id/geoportal2" target="_blank"
                                 class="stretched-link">Geoportal</a></h3>
@@ -30,7 +30,7 @@
                 <!-- End Feature Item -->
 
                 <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="features-item">
+                    <div class="features-item d-flex justify-content-center">
                         <i class="bi bi-buildings" style="color: #e80368"></i>
                         <h3><a href="https://dpupr.bantaengkab.go.id/infrastruktur" target="_blank"
                                 class="stretched-link">Infrastruktur</a></h3>
@@ -39,7 +39,7 @@
                 <!-- End Feature Item -->
 
                 <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
-                    <div class="features-item">
+                    <div class="features-item d-flex justify-content-center">
                         <i class="bi bi-file-zip" style="color: #e361ff"></i>
                         <h3><a href="https://dpupr.bantaengkab.go.id/Arsip" target="_blank"
                                 class="stretched-link">Archive</a></h3>
@@ -48,7 +48,7 @@
                 <!-- End Feature Item -->
 
                 <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="500">
-                    <div class="features-item">
+                    <div class="features-item d-flex justify-content-center">
                         <a href="http://lpse.bantaengkab.go.id/eproc4/lelang" target="_blank">
                             <img src="{{ asset('user') }}/assets/img/LPSE.png" class="img-fluid" height="48" />
                         </a>
@@ -85,8 +85,8 @@
                                 <i class="bi bi-quote quote-icon-right"></i>
                             </p>
                             <div>
-                                <img src="{{ asset('user') }}/assets/img/kepala-dinas.jpg" class="testimonial-img"
-                                    alt="">
+                                <img src="{{ asset('user') }}/assets/img/testimonials/kepala-dinas_400.jpg"
+                                    class="testimonial-img" alt="">
                                 <h3>Ir ANDI SJAFARUDDIN MAGAU</h3>
                                 <h4>Kepala Dinas PU Kab. Bantaeng</h4>
                             </div>
@@ -117,8 +117,8 @@
                                 <li>Mengoptimalkan pengembangan pertanian dan pemberdayaan ekonomi kerakyatan</li>
                             </ol>
                             <div>
-                                <img src="{{ asset('user') }}/assets/img/bupati2.webp" class="testimonial-img"
-                                    alt="">
+                                <img src="{{ asset('user') }}/assets/img/testimonials/bupati2.jpg"
+                                    class="testimonial-img" alt="">
                                 <h3>M. FATHUL FAUZY NURDIN M.I.KOM</h3>
                                 <h4>Bupati Kab. Bantaeng</h4>
                             </div>
